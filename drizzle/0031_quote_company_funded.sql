@@ -1,0 +1,1 @@
+ALTER TABLE "mortgage_quote" ADD COLUMN "company_funded" boolean DEFAULT false NOT NULL;

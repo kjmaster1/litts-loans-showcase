@@ -1,0 +1,776 @@
+$0.00
+69811362
+19858
+TYPE loan
+State interest rate 0 %
+Broker interest rate 17 %
+Original total interest rate 17 %
+Current total interest rate 17% (0.00%)
+Missed payment amounts 0
+1/3complete
+Loan Agreement Amount: $29250
+$0.00
+69811362
+5106
+TYPE loan
+State interest rate 0 %
+Broker interest rate 17 %
+Original total interest rate 17 %
+Current total interest rate 23% (+6.00%)
+Missed payment amounts 0
+2/2complete
+DEFAULTED: You have missed to many missed payments! {{comment}} payment 2/2
+$0.00
+69811362
+1823
+TYPE loan
+State interest rate 0 %
+Broker interest rate 15 %
+Original total interest rate 15 %
+Current total interest rate 15% (0.00%)
+Missed payment amounts 0
+1/3complete
+Loan Agreement Amount: $82800
+$0.00
+69811362
+4971
+TYPE loan
+State interest rate 0 %
+Broker interest rate 15 %
+Original total interest rate 15 %
+Current total interest rate 15% (0.00%)
+Missed payment amounts 0
+1/4complete
+Loan Agreement Amount: $17252
+$0.00
+69811362
+16666
+TYPE loan
+State interest rate 0 %
+Broker interest rate 18 %
+Original total interest rate 18 %
+Current total interest rate 18% (0.00%)
+Missed payment amounts 0
+2/8complete
+Loan Agreement Amount: $41304
+$17,700.00
+69811362
+19858
+TYPE loan
+State interest rate 0 %
+Broker interest rate 18 %
+Original total interest rate 18 %
+Current total interest rate 18% (0.00%)
+Missed payment amounts 0
+$17700) remaining
+2/2complete
+Loan Agreement Amount: $35400
+$0.00
+69811362
+2075
+TYPE loan
+State interest rate 0 %
+Broker interest rate 15 %
+Original total interest rate 15 %
+Current total interest rate 15% (0.00%)
+Missed payment amounts 0
+5/6complete
+Loan Agreement Amount: $69000
+$0.00
+69811362
+16666
+TYPE loan
+State interest rate 0 %
+Broker interest rate 20 %
+Original total interest rate 20 %
+Current total interest rate 20% (0.00%)
+Missed payment amounts 0
+1/6complete
+Loan Agreement Amount: $36000
+$0.00
+69811362
+7322
+TYPE loan
+State interest rate 0 %
+Broker interest rate 17 %
+Original total interest rate 17 %
+Current total interest rate 17% (0.00%)
+Missed payment amounts 0
+3/4complete
+Loan Agreement Amount: $35100
+$6,000.00
+69811362
+4938
+TYPE loan
+State interest rate 0 %
+Broker interest rate 20 %
+Original total interest rate 20 %
+Current total interest rate 20% (0.00%)
+Missed payment amounts 0
+$6000) remaining
+3/3complete
+Loan Agreement Amount: $18000
+$0.00
+69811362
+8924
+TYPE loan
+State interest rate 0 %
+Broker interest rate 20 %
+Original total interest rate 20 %
+Current total interest rate 20% (0.00%)
+Missed payment amounts 0
+1/3complete
+Loan Agreement Amount: $54000
+$0.00
+69794349
+15136
+TYPE mortgage
+State interest rate 30 %
+Broker interest rate 6 %
+Original total interest rate 36 %
+Current total interest rate 36% (0.00%)
+Missed payment amounts 0
+5/6complete
+Mortgage Agreement: 122 Procopio Dr, Amount: $179928
+$8,050.00
+69811362
+4743
+TYPE loan
+State interest rate 0 %
+Broker interest rate 15 %
+Original total interest rate 15 %
+Current total interest rate 15% (0.00%)
+Missed payment amounts 0
+$8050) remaining
+4/4complete
+Loan Agreement Amount: $32200
+$0.00
+69794349
+7768
+TYPE mortgage
+State interest rate 0 %
+Broker interest rate 6 %
+Original total interest rate 6 %
+Current total interest rate 6% (0.00%)
+Missed payment amounts 0
+7/8complete
+Mortgage Agreement: 116 Brouge Ave, Amount: $85064
+$7,879.00
+69811362
+10814
+TYPE loan
+State interest rate 0 %
+Broker interest rate 17 %
+Original total interest rate 17 %
+Current total interest rate 17% (0.00%)
+Missed payment amounts 0
+$7879.714285714291) remaining
+7/7complete
+Loan Agreement Amount: $64351
+$0.00
+69811362
+13786
+TYPE loan
+State interest rate 0 %
+Broker interest rate 22 %
+Original total interest rate 22 %
+Current total interest rate 22% (0.00%)
+Missed payment amounts 0
+1/4complete
+DEFAULTED: Too many missed payments (3). Payment 0/4
+$0.00
+69811362
+15837
+TYPE loan
+State interest rate 0 %
+Broker interest rate 20 %
+Original total interest rate 20 %
+Current total interest rate 20% (0.00%)
+Missed payment amounts 0
+2/3complete
+OVERDUE: Missed payment
+$0.00
+69794349
+26698
+TYPE mortgage
+State interest rate 5 %
+Broker interest rate 5 %
+Original total interest rate 10 %
+Current total interest rate 10% (0.00%)
+Missed payment amounts 0
+0/8complete
+Mortgage Agreement: 101 Strawberry Ave, Apt 2F, Amount: $37232
+$0.00
+69794349
+13967
+TYPE mortgage
+State interest rate 0 %
+Broker interest rate 7.5 %
+Original total interest rate 7.5 %
+Current total interest rate 7.5% (0.00%)
+Missed payment amounts 0
+7/28complete
+Mortgage Agreement: 117 Procopio Dr, Amount: $223496
+$15,300.00
+69811362
+10020
+TYPE loan
+State interest rate 0 %
+Broker interest rate 20 %
+Original total interest rate 20 %
+Current total interest rate 20% (0.00%)
+Missed payment amounts 0
+$12750) remaining
+4/4complete
+OVERDUE: Missed payment 1/4 (1 missed)
+$13,500.00
+69811362
+8924
+TYPE loan
+State interest rate 1 %
+Broker interest rate 20 %
+Original total interest rate 21 %
+Current total interest rate 21% (0.00%)
+Missed payment amounts 0
+$11250) remaining
+4/4complete
+Loan Agreement Amount: $54000
+$2,020.00
+69811362
+18119
+TYPE loan
+State interest rate 16 %
+Broker interest rate 1 %
+Original total interest rate 17 %
+Current total interest rate 17% (0.00%)
+Missed payment amounts 0
+$2000) remaining
+5/5complete
+Loan Agreement Amount: $10100
+$0.00
+69811362
+9627
+TYPE loan
+State interest rate 0 %
+Broker interest rate 20 %
+Original total interest rate 20 %
+Current total interest rate 20% (0.00%)
+Missed payment amounts 0
+3/4complete
+DEFAULTED: Too many missed payments (3). Payment 2/4
+$2.00
+69794349
+24301
+TYPE mortgage
+State interest rate 0 %
+Broker interest rate 6 %
+Original total interest rate 6 %
+Current total interest rate 6% (0.00%)
+Missed payment amounts 0
+$1) remaining
+12/12complete
+Mortgage Agreement: 120 Grove St, Amount: $86184
+$0.00
+69811362
+17024
+TYPE loan
+State interest rate 1 %
+Broker interest rate 18 %
+Original total interest rate 19 %
+Current total interest rate 19% (0.00%)
+Missed payment amounts 0
+0/6complete
+Loan Agreement Amount: $35000
+$9,150.00
+69794349
+22413
+TYPE mortgage
+State interest rate 0 %
+Broker interest rate 6 %
+Original total interest rate 6 %
+Current total interest rate 6% (0.00%)
+Missed payment amounts 0
+$8632) remaining
+8/8complete
+Mortgage Agreement: 108 Amarillo Vista, Amount: $73200
+$24.00
+69811362
+24317
+TYPE loan
+State interest rate 1 %
+Broker interest rate 20 %
+Original total interest rate 21 %
+Current total interest rate 21% (0.00%)
+Missed payment amounts 0
+$20) remaining
+6/6complete
+OVERDUE: Missed payment 3/6 (1 missed)
+$6.00
+69811362
+5129
+TYPE loan
+State interest rate 1 %
+Broker interest rate 20 %
+Original total interest rate 21 %
+Current total interest rate 21% (0.00%)
+Missed payment amounts 0
+$5) remaining
+4/4complete
+Loan Agreement Amount: $10000
+$6,000.00
+69811362
+3140
+TYPE loan
+State interest rate 1 %
+Broker interest rate 20 %
+Original total interest rate 21 %
+Current total interest rate 21% (0.00%)
+Missed payment amounts 0
+$5000) remaining
+8/8complete
+Loan Agreement Amount: $48000
+$15.00
+69811362
+23919
+TYPE loan
+State interest rate 1 %
+Broker interest rate 20 %
+Original total interest rate 21 %
+Current total interest rate 21% (0.00%)
+Missed payment amounts 0
+$12) remaining
+2/2complete
+Loan Agreement Amount: $10000
+$9,777.00
+69811362
+10814
+TYPE loan
+State interest rate 1 %
+Broker interest rate 16 %
+Original total interest rate 17 %
+Current total interest rate 17% (0.00%)
+Missed payment amounts 0
+$8428) remaining
+7/7complete
+Loan Agreement Amount: $59000
+$2,138.00
+69794349
+2639
+TYPE mortgage
+State interest rate 10 %
+Broker interest rate 5 %
+Original total interest rate 15 %
+Current total interest rate 15% (0.00%)
+Missed payment amounts 0
+$1859) remaining
+10/10complete
+Mortgage Agreement: 134 Roy Lowenstein Blvd, Amount: $62986
+$4,830.00
+69811362
+8660
+TYPE loan
+State interest rate 1 %
+Broker interest rate 15 %
+Original total interest rate 16 %
+Current total interest rate 16% (0.00%)
+Missed payment amounts 0
+$4200) remaining
+5/5complete
+Loan Agreement Amount: $21000
+$2.00
+69811362
+25704
+TYPE loan
+State interest rate 1 %
+Broker interest rate 25 %
+Original total interest rate 26 %
+Current total interest rate 26% (0.00%)
+Missed payment amounts 0
+$1) remaining
+8/8complete
+Loan Agreement Amount: $12500
+$5.00
+69811362
+24795
+TYPE loan
+State interest rate 1 %
+Broker interest rate 18 %
+Original total interest rate 19 %
+Current total interest rate 19% (0.00%)
+Missed payment amounts 0
+$4) remaining
+8/8complete
+Loan Agreement Amount: $30000
+$7,896.00
+69811362
+19822
+TYPE loan
+State interest rate 1 %
+Broker interest rate 20 %
+Original total interest rate 21 %
+Current total interest rate 21% (0.00%)
+Missed payment amounts 0
+$6580) remaining
+10/10complete
+OVERDUE: Missed payment 2/10 (1 missed)
+$5.00
+69811362
+19690
+TYPE loan
+State interest rate 1 %
+Broker interest rate 18 %
+Original total interest rate 19 %
+Current total interest rate 19% (0.00%)
+Missed payment amounts 0
+$4) remaining
+14/14complete
+OVERDUE: Missed payment 6/14 (1 missed)
+$5,010.00
+69811362
+7509
+TYPE loan
+State interest rate 1 %
+Broker interest rate 18 %
+Original total interest rate 19 %
+Current total interest rate 19% (0.00%)
+Missed payment amounts 0
+$4245) remaining
+10/10complete
+OVERDUE: Missed payment 8/10 (1 missed)
+$9,180.00
+69811362
+7307
+TYPE loan
+State interest rate 1 %
+Broker interest rate 20 %
+Original total interest rate 21 %
+Current total interest rate 21% (0.00%)
+Missed payment amounts 0
+$7650) remaining
+4/4complete
+OVERDUE: Missed payment 0/4 (1 missed)
+$468.00
+69811362
+7213
+TYPE loan
+State interest rate 1 %
+Broker interest rate 17 %
+Original total interest rate 18 %
+Current total interest rate 18% (0.00%)
+Missed payment amounts 0
+$400) remaining
+9/9complete
+Loan Agreement Amount: $20000
+$0.00
+69811362
+17449
+TYPE loan
+State interest rate 1 %
+Broker interest rate 22 %
+Original total interest rate 23 %
+Current total interest rate 23% (0.00%)
+Missed payment amounts 0
+11/12complete
+Loan Agreement Amount: $50000
+$7.00
+69811362
+3831
+TYPE loan
+State interest rate 1 %
+Broker interest rate 21 %
+Original total interest rate 22 %
+Current total interest rate 22% (0.00%)
+Missed payment amounts 0
+$5) remaining
+12/12complete
+Loan Agreement Amount: $30000
+$6,000.00
+69811362
+9197
+TYPE loan
+State interest rate 1 %
+Broker interest rate 20 %
+Original total interest rate 21 %
+Current total interest rate 21% (0.00%)
+Missed payment amounts 0
+$5000) remaining
+6/6complete
+Loan Agreement Amount: $30000
+$9,469.00
+69811362
+3140
+TYPE loan
+State interest rate 15 %
+Broker interest rate 1 %
+Original total interest rate 16 %
+Current total interest rate 16% (0.00%)
+Missed payment amounts 0
+$9375) remaining
+8/8complete
+Loan Agreement Amount: $75000
+$376.00
+69811362
+26698
+TYPE loan
+State interest rate 1 %
+Broker interest rate 20 %
+Original total interest rate 21 %
+Current total interest rate 21% (0.00%)
+Missed payment amounts 0
+$313) remaining
+10/10complete
+Loan Agreement Amount: $42000
+$9,583.00
+69811362
+27757
+TYPE loan
+State interest rate 1 %
+Broker interest rate 15 %
+Original total interest rate 16 %
+Current total interest rate 16% (0.00%)
+Missed payment amounts 0
+$8333) remaining
+6/6complete
+Loan Agreement Amount: $50000
+$3,255.00
+69811362
+9475
+TYPE loan
+State interest rate 1 %
+Broker interest rate 20 %
+Original total interest rate 21 %
+Current total interest rate 23% (+2.00%)
+Missed payment amounts 0
+$2712) remaining
+12/12complete
+OVERDUE: Missed payment 11/12 (1 missed)
+$910.00
+69811362
+17825
+TYPE loan
+State interest rate 1 %
+Broker interest rate 12 %
+Original total interest rate 13 %
+Current total interest rate 13% (0.00%)
+Missed payment amounts 0
+$812) remaining
+12/12complete
+Loan Agreement Amount: $75000
+$7,500.00
+69811362
+17825
+TYPE loan
+State interest rate 1 %
+Broker interest rate 20 %
+Original total interest rate 21 %
+Current total interest rate 21% (0.00%)
+Missed payment amounts 0
+$6250) remaining
+8/8complete
+Loan Agreement Amount: $50000
+$19,285.00
+69811362
+15625
+TYPE loan
+State interest rate 1 %
+Broker interest rate 25 %
+Original total interest rate 26 %
+Current total interest rate 26% (0.00%)
+Missed payment amounts 0
+$15428) remaining
+7/7complete
+Loan Agreement Amount: $108000
+$7,200.00
+69811362
+26270
+TYPE loan
+State interest rate 1 %
+Broker interest rate 20 %
+Original total interest rate 21 %
+Current total interest rate 21% (0.00%)
+Missed payment amounts 0
+$6000) remaining
+10/10complete
+Loan Agreement Amount: $60000
+$9.00
+69811362
+15087
+TYPE loan
+State interest rate 1 %
+Broker interest rate 10 %
+Original total interest rate 11 %
+Current total interest rate 11% (0.00%)
+Missed payment amounts 0
+$8) remaining
+1/1complete
+Loan Agreement Amount: $20000
+$29.00
+69811362
+26525
+TYPE loan
+State interest rate 1 %
+Broker interest rate 25 %
+Original total interest rate 26 %
+Current total interest rate 26% (0.00%)
+Missed payment amounts 0
+$23) remaining
+8/8complete
+OVERDUE: Missed payment 4/8 (1 missed)
+$6,120.00
+69811362
+8731
+TYPE loan
+State interest rate 1 %
+Broker interest rate 20 %
+Original total interest rate 21 %
+Current total interest rate 21% (0.00%)
+Missed payment amounts 0
+$5100) remaining
+6/6complete
+OVERDUE: Missed payment 2/6 (1 missed)
+$1,591.00
+69811362
+7307
+TYPE loan
+State interest rate 20 %
+Broker interest rate 1 %
+Original total interest rate 21 %
+Current total interest rate 21% (0.00%)
+Missed payment amounts 0
+$1575) remaining
+8/8complete
+Loan Agreement Amount: $60000
+$4,916.00
+69811362
+14442
+TYPE loan
+State interest rate 1 %
+Broker interest rate 18 %
+Original total interest rate 19 %
+Current total interest rate 19% (0.00%)
+Missed payment amounts 0
+$4166) remaining
+12/12complete
+Loan Agreement Amount: $50000
+$8.00
+69811362
+18663
+TYPE loan
+State interest rate 1 %
+Broker interest rate 20 %
+Original total interest rate 21 %
+Current total interest rate 21% (0.00%)
+Missed payment amounts 0
+$6) remaining
+6/6complete
+Loan Agreement Amount: $50000
+$10,000.00
+69811362
+9874
+TYPE loan
+State interest rate 1 %
+Broker interest rate 20 %
+Original total interest rate 21 %
+Current total interest rate 21% (0.00%)
+Missed payment amounts 0
+$8333) remaining
+6/6complete
+Loan Agreement Amount: $50000
+$4,600.00
+69811362
+26806
+TYPE loan
+State interest rate 1 %
+Broker interest rate 10 %
+Original total interest rate 11 %
+Current total interest rate 11% (0.00%)
+Missed payment amounts 0
+$4181) remaining
+11/11complete
+Loan Agreement Amount: $46000
+$15,598.00
+69794349
+3042
+TYPE mortgage
+State interest rate 0 %
+Broker interest rate 6 %
+Original total interest rate 6 %
+Current total interest rate 8% (+2.00%)
+Missed payment amounts 1
+First missed payment: 22 September 2026 - 02:05:39 PM (GMT+1)
+$103002) remaining
+23/30complete
+OVERDUE: Missed payment 23/30 (1 missed)
+$17,168.00
+69794349
+10303
+TYPE mortgage
+State interest rate 5 %
+Broker interest rate 4 %
+Original total interest rate 9 %
+Current total interest rate 9% (0.00%)
+Missed payment amounts 0
+$346500) remaining
+26/48complete
+Mortgage Agreement: 111 Spanish Ave, Amount: $824064
+$4.00
+69794349
+17876
+TYPE mortgage
+State interest rate 5 %
+Broker interest rate 4 %
+Original total interest rate 9 %
+Current total interest rate 9% (0.00%)
+Missed payment amounts 0
+$12) remaining
+26/30complete
+Mortgage Agreement: 110 Spanish Ave, Apt C, Amount: $489270
+$15,593.00
+69794349
+8912
+TYPE mortgage
+State interest rate 5 %
+Broker interest rate 5 %
+Original total interest rate 10 %
+Current total interest rate 10% (0.00%)
+Missed payment amounts 0
+$56700) remaining
+26/30complete
+Mortgage Agreement: 101 Spanish Ave, Apt A, Amount: $467790
+$13,373.00
+69794349
+8018
+TYPE mortgage
+State interest rate 5 %
+Broker interest rate 5 %
+Original total interest rate 10 %
+Current total interest rate 10% (0.00%)
+Missed payment amounts 0
+$267454) remaining
+26/48complete
+Mortgage Agreement: 101 Alta St, Amount: $646800
+$38,666.00
+69794349
+25702
+TYPE mortgage
+State interest rate 5 %
+Broker interest rate 4 %
+Original total interest rate 9 %
+Current total interest rate 13% (+4.00%)
+Missed payment amounts 2
+First missed payment: 10 September 2026 - 09:38:11 AM (GMT+1)
+$248311) remaining
+8/15complete
+OVERDUE: Missed payment 8/15 (2 missed)
+$5.00
+69811362
+25034
+TYPE loan
+State interest rate 1 %
+Broker interest rate 18 %
+Original total interest rate 19 %
+Current total interest rate 19% (0.00%)
+Missed payment amounts 0
+$4) remaining
+12/12complete
+Loan Agreement Amount: $60000

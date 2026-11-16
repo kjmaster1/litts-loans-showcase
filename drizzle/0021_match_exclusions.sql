@@ -1,0 +1,2 @@
+ALTER TABLE "loan_offer" ADD COLUMN "excluded_loan_ids" uuid[] DEFAULT '{}'::uuid[] NOT NULL;--> statement-breakpoint
+ALTER TABLE "mortgage_quote" ADD COLUMN "excluded_mortgage_ids" uuid[] DEFAULT '{}'::uuid[] NOT NULL;

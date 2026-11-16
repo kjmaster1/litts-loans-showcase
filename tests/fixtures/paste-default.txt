@@ -1,0 +1,291 @@
+$4,650.00
+69811362
+14629
+TYPE loan
+State interest rate 0 %
+Broker interest rate 20 %
+Original total interest rate 20 %
+Current total interest rate 24% (+4.00%)
+Missed payment amounts 3
+$37200) remaining
+0/8complete
+DEFAULTED: You have missed to many missed payments! {{comment}} payment 0/8
+MOVE TO OVERDUE
+$6,243.00
+69811362
+15837
+TYPE loan
+State interest rate 1 %
+Broker interest rate 20 %
+Original total interest rate 21 %
+Current total interest rate 25% (+4.00%)
+Missed payment amounts 3
+First missed payment: 9 April 2026 - 05:44:25 PM (GMT+1)
+$15606) remaining
+1/4complete
+DEFAULTED: Too many missed payments (3). Payment 1/4
+MOVE TO OVERDUE
+$5,568.00
+69811362
+12775
+TYPE loan
+State interest rate 0 %
+Broker interest rate 20 %
+Original total interest rate 20 %
+Current total interest rate 24% (+4.00%)
+Missed payment amounts 3
+First missed payment: 13 April 2026 - 11:45:17 AM (GMT+1)
+$18559) remaining
+4/8complete
+DEFAULTED: Too many missed payments (3). Payment 4/8
+MOVE TO OVERDUE
+$5,267.00
+69794349
+26315
+TYPE mortgage
+State interest rate 0 %
+Broker interest rate 6 %
+Original total interest rate 6 %
+Current total interest rate 10% (+4.00%)
+Missed payment amounts 3
+First missed payment: 15 April 2026 - 04:12:06 AM (GMT+1)
+$34776) remaining
+9/16complete
+SANCTIONED: The full loan amount x5 : 382010 has been deducted from the finance companies state federal allowance balance -- DEFAULTED: Too many missed payments (3). Payment 9/16
+Re-Pay In Full
+$2,182.00
+69794349
+15837
+TYPE mortgage
+State interest rate 0 %
+Broker interest rate 6 %
+Original total interest rate 6 %
+Current total interest rate 10% (+4.00%)
+Missed payment amounts 3
+First missed payment: 16 April 2026 - 06:01:28 PM (GMT+1)
+$14406) remaining
+5/12complete
+SANCTIONED: The full loan amount x5 : 114060 has been deducted from the finance companies state federal allowance balance -- DEFAULTED: Too many missed payments (3). Payment 5/12
+Re-Pay In Full
+$1,961.00
+69794349
+26315
+TYPE mortgage
+State interest rate 0 %
+Broker interest rate 6 %
+Original total interest rate 6 %
+Current total interest rate 10% (+4.00%)
+Missed payment amounts 3
+First missed payment: 22 April 2026 - 04:33:30 AM (GMT+1)
+$11100) remaining
+10/16complete
+SANCTIONED: The full loan amount x5 : 142220 has been deducted from the finance companies state federal allowance balance -- DEFAULTED: Too many missed payments (3). Payment 10/16
+Re-Pay In Full
+$2,715.00
+69811362
+10903
+TYPE loan
+State interest rate 1 %
+Broker interest rate 17 %
+Original total interest rate 18 %
+Current total interest rate 22% (+4.00%)
+Missed payment amounts 3
+First missed payment: 19 May 2026 - 04:12:54 AM (GMT+1)
+$6958) remaining
+4/7complete
+DEFAULTED: Too many missed payments (3). Payment 4/7
+MOVE TO OVERDUE
+$6,604.00
+69811362
+9402
+TYPE loan
+State interest rate 1 %
+Broker interest rate 22 %
+Original total interest rate 23 %
+Current total interest rate 27% (+4.00%)
+Missed payment amounts 3
+First missed payment: 24 May 2026 - 09:12:51 AM (GMT+1)
+$37886) remaining
+3/10complete
+DEFAULTED: Too many missed payments (3). Payment 3/10
+MOVE TO OVERDUE
+$3,249.00
+69811362
+10903
+TYPE loan
+State interest rate 1 %
+Broker interest rate 20 %
+Original total interest rate 21 %
+Current total interest rate 25% (+4.00%)
+Missed payment amounts 3
+First missed payment: 26 May 2026 - 01:21:31 AM (GMT+1)
+$5414) remaining
+6/8complete
+DEFAULTED: Too many missed payments (3). Payment 6/8
+MOVE TO OVERDUE
+$0.00
+69794349
+27588
+TYPE mortgage
+State interest rate 0 %
+Broker interest rate 6 %
+Original total interest rate 6 %
+Current total interest rate 6% (0.00%)
+Missed payment amounts 3
+First missed payment: 29 May 2026 - 10:08:18 AM (GMT+1)
+14/16complete
+SANCTIONED: The full loan amount x5 : 337255 has been deducted from the finance companies state federal allowance balance -- DEFAULTED: Too many missed payments (3). Payment 14/16
+Re-Pay In Full
+$1,190.00
+69811362
+24162
+TYPE loan
+State interest rate 1 %
+Broker interest rate 25 %
+Original total interest rate 26 %
+Current total interest rate 30% (+4.00%)
+Missed payment amounts 3
+First missed payment: 6 June 2026 - 04:22:05 AM (GMT+1)
+$2856) remaining
+3/6complete
+DEFAULTED: Too many missed payments (3). Payment 3/6
+MOVE TO OVERDUE
+$6,965.00
+69811362
+1007
+TYPE loan
+State interest rate 1 %
+Broker interest rate 25 %
+Original total interest rate 26 %
+Current total interest rate 30% (+4.00%)
+Missed payment amounts 3
+First missed payment: 10 June 2026 - 04:01:31 AM (GMT+1)
+$33429) remaining
+2/8complete
+DEFAULTED: Too many missed payments (3). Payment 2/8
+MOVE TO OVERDUE
+$4,953.00
+69811362
+9921
+TYPE loan
+State interest rate 1 %
+Broker interest rate 19 %
+Original total interest rate 20 %
+Current total interest rate 24% (+4.00%)
+Missed payment amounts 3
+First missed payment: 1 July 2026 - 02:33:04 AM (GMT+1)
+$12485) remaining
+7/10complete
+DEFAULTED: Too many missed payments (3). Payment 7/10
+MOVE TO OVERDUE
+$8,047.00
+69811362
+6661
+TYPE loan
+State interest rate 1 %
+Broker interest rate 16 %
+Original total interest rate 17 %
+Current total interest rate 21% (+4.00%)
+Missed payment amounts 3
+First missed payment: 7 July 2026 - 04:07:01 AM (GMT+1)
+$34682) remaining
+1/6complete
+DEFAULTED: Too many missed payments (3). Payment 1/6
+MOVE TO OVERDUE
+$0.00
+69811362
+9408
+TYPE loan
+State interest rate 1 %
+Broker interest rate 15 %
+Original total interest rate 16 %
+Current total interest rate 16% (0.00%)
+Missed payment amounts 3
+First missed payment: 8 July 2026 - 01:07:02 PM (GMT+1)
+4/10complete
+DEFAULTED: Too many missed payments (3). Payment 4/10
+MOVE TO OVERDUE
+$10,826.00
+69811362
+24317
+TYPE loan
+State interest rate 1 %
+Broker interest rate 20 %
+Original total interest rate 21 %
+Current total interest rate 25% (+4.00%)
+Missed payment amounts 3
+First missed payment: 8 July 2026 - 03:07:01 PM (GMT+1)
+$27062) remaining
+3/6complete
+DEFAULTED: Too many missed payments (3). Payment 3/6
+MOVE TO OVERDUE
+$7,804.00
+69811362
+25718
+TYPE loan
+State interest rate 1 %
+Broker interest rate 20 %
+Original total interest rate 21 %
+Current total interest rate 25% (+4.00%)
+Missed payment amounts 3
+First missed payment: 17 August 2026 - 01:59:45 PM (GMT+1)
+$6503) remaining
+7/8complete
+DEFAULTED: Too many missed payments (3). Payment 7/8
+MOVE TO OVERDUE
+$3,890.00
+69811362
+15819
+TYPE loan
+State interest rate 1 %
+Broker interest rate 13 %
+Original total interest rate 14 %
+Current total interest rate 18% (+4.00%)
+Missed payment amounts 3
+First missed payment: 22 August 2026 - 09:41:34 PM (GMT+1)
+$20647) remaining
+0/6complete
+DEFAULTED: Too many missed payments (3). Payment 0/6
+MOVE TO OVERDUE
+$4,925.00
+69811362
+4457
+TYPE loan
+State interest rate 1 %
+Broker interest rate 16 %
+Original total interest rate 17 %
+Current total interest rate 21% (+4.00%)
+Missed payment amounts 3
+First missed payment: 3 September 2026 - 11:16:56 PM (GMT+1)
+$46694) remaining
+6/17complete
+DEFAULTED: Too many missed payments (3). Payment 6/17
+MOVE TO OVERDUE
+$8,324.00
+69811362
+14962
+TYPE loan
+State interest rate 1 %
+Broker interest rate 20 %
+Original total interest rate 21 %
+Current total interest rate 25% (+4.00%)
+Missed payment amounts 3
+First missed payment: 14 September 2026 - 01:16:32 AM (GMT+1)
+$41616) remaining
+0/6complete
+DEFAULTED: Too many missed payments (3). Payment 0/6
+MOVE TO OVERDUE
+$9,371.00
+69811362
+13325
+TYPE loan
+State interest rate 1 %
+Broker interest rate 15 %
+Original total interest rate 16 %
+Current total interest rate 20% (+4.00%)
+Missed payment amounts 2
+First missed payment: 29 September 2026 - 12:58:02 PM (GMT+1)
+$48883) remaining
+0/6complete
+OVERDUE: Missed payment 0/6 (2 missed)
+MOVE TO OVERDUE

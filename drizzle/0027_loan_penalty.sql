@@ -1,0 +1,1 @@
+ALTER TABLE "loan_payment_link" ADD COLUMN "penalty_cents" bigint DEFAULT 0 NOT NULL;

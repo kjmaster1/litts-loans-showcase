@@ -1,0 +1,210 @@
+$181.00
+69811362
+8167
+TYPE loan
+State interest rate 1 %
+Broker interest rate 15 %
+Original total interest rate 16 %
+Current total interest rate 16% (0.00%)
+Missed payment amounts 0
+$313) remaining
+4/6complete
+Next payment: in 2 hours
+every 7 days
+4/6 complete
+Loan Agreement Amount: $40000
+$11,500.00
+69811362
+20511
+TYPE loan
+State interest rate 1 %
+Broker interest rate 15 %
+Original total interest rate 16 %
+Current total interest rate 16% (0.00%)
+Missed payment amounts 0
+$100000) remaining
+0/10complete
+Next payment: in 1 day
+every 7 days
+0/10 complete
+Loan Agreement Amount: $100000
+$6,018.00
+69811362
+7307
+TYPE loan
+State interest rate 1 %
+Broker interest rate 18 %
+Original total interest rate 19 %
+Current total interest rate 19% (0.00%)
+Missed payment amounts 0
+$25500) remaining
+3/8complete
+Next payment: in 1 day
+every 7 days
+3/8 complete
+OVERDUE: Missed payment 2/8 (1 missed)
+$5,377.00
+69811362
+26912
+TYPE loan
+State interest rate 1 %
+Broker interest rate 15 %
+Original total interest rate 16 %
+Current total interest rate 16% (0.00%)
+Missed payment amounts 0
+$23373) remaining
+7/12complete
+Next payment: in 1 day
+every 7 days
+7/12 complete
+OVERDUE: Missed payment 6/12 (1 missed)
+$4,971.00
+69811362
+24501
+TYPE loan
+State interest rate 1 %
+Broker interest rate 16 %
+Original total interest rate 17 %
+Current total interest rate 17% (0.00%)
+Missed payment amounts 0
+$4285) remaining
+6/7complete
+Next payment: in 2 days
+every 7 days
+6/7 complete
+Loan Agreement Amount: $30000
+$8,050.00
+69811362
+14003
+TYPE loan
+State interest rate 1 %
+Broker interest rate 15 %
+Original total interest rate 16 %
+Current total interest rate 16% (0.00%)
+Missed payment amounts 0
+$63000) remaining
+1/10complete
+Next payment: in 3 days
+every 7 days
+1/10 complete
+Loan Agreement Amount: $70000
+$9,600.00
+69811362
+17449
+TYPE loan
+State interest rate 1 %
+Broker interest rate 20 %
+Original total interest rate 21 %
+Current total interest rate 21% (0.00%)
+Missed payment amounts 0
+$72000) remaining
+1/10complete
+Next payment: in 3 days
+every 7 days
+1/10 complete
+Loan Agreement Amount: $80000
+$6,230.00
+69811362
+14423
+TYPE loan
+State interest rate 1 %
+Broker interest rate 15 %
+Original total interest rate 16 %
+Current total interest rate 16% (0.00%)
+Missed payment amounts 0
+$124584) remaining
+1/24complete
+Next payment: in 4 days
+every 7 days
+1/24 complete
+Loan Agreement Amount: $130000
+$5,040.00
+69811362
+6922
+TYPE loan
+State interest rate 1 %
+Broker interest rate 20 %
+Original total interest rate 21 %
+Current total interest rate 21% (0.00%)
+Missed payment amounts 0
+$16800) remaining
+1/5complete
+Next payment: in 4 days
+every 7 days
+1/5 complete
+Loan Agreement Amount: $21000
+$3,000.00
+69811362
+26632
+TYPE loan
+State interest rate 1 %
+Broker interest rate 20 %
+Original total interest rate 21 %
+Current total interest rate 21% (0.00%)
+Missed payment amounts 0
+$15000) remaining
+0/6complete
+Next payment: in 4 days
+every 7 days
+0/6 complete
+Loan Agreement Amount: $15000
+$4,843.00
+69811362
+6231
+TYPE loan
+State interest rate 1 %
+Broker interest rate 15 %
+Original total interest rate 16 %
+Current total interest rate 16% (0.00%)
+Missed payment amounts 0
+$42102) remaining
+9/19complete
+Next payment: in 5 days
+every 7 days
+9/19 complete
+Loan Agreement Amount: $80000
+$5,120.00
+69811362
+9115
+TYPE loan
+State interest rate 1 %
+Broker interest rate 21 %
+Original total interest rate 22 %
+Current total interest rate 22% (0.00%)
+Missed payment amounts 0
+$29615) remaining
+6/13complete
+Next payment: in 5 days
+every 7 days
+6/13 complete
+Loan Agreement Amount: $55000
+$12,000.00
+69811362
+12416
+TYPE loan
+State interest rate 1 %
+Broker interest rate 20 %
+Original total interest rate 21 %
+Current total interest rate 21% (0.00%)
+Missed payment amounts 0
+$90000) remaining
+1/10complete
+Next payment: in 5 days
+every 7 days
+1/10 complete
+Loan Agreement Amount: $100000
+$28,250.00
+69811362
+16285
+TYPE loan
+State interest rate 1 %
+Broker interest rate 13 %
+Original total interest rate 14 %
+Current total interest rate 14% (0.00%)
+Missed payment amounts 0
+$75000) remaining
+0/3complete
+Next payment: in 7 days
+every 14 days
+0/3 complete
+Loan Agreement Amount: $75000

@@ -1,0 +1,88 @@
+# Nightly browser tests (owner review, 2026-10-11): builds the app, starts it on a fresh
+# Postgres 18, signs up one account per role through the real invite + 2FA flow, loads the
+# anonymised fixtures through the UI, then runs tests/e2e (crawl per role, odd URLs,
+# accessibility in both themes, the main flows). A failure emails the owner via GitHub.
+# No secrets: every value is a dummy for this job. Also runs on demand, and from CI before
+# every deploy (workflow_call; review 2026-10-13).
+name: Browser tests
+
+on:
+  workflow_dispatch:
+  workflow_call:
+
+permissions:
+  contents: read
+
+concurrency:
+  # Called from CI, `github.workflow` is "CI": a deploy's run never shares a group with the nightly one,
+  # and is never cancelled (deploys queue, like the CI run that called it).
+  group: e2e-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: ${{ github.workflow != 'CI' }}
+
+jobs:
+  e2e:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+
+    services:
+      postgres:
+        image: postgres:18-alpine
+        env:
+          POSTGRES_USER: litts
+          POSTGRES_PASSWORD: litts_dev_password
+          POSTGRES_DB: litts_e2e
+        ports:
+          - 54329:5432
+        options: >-
+          --health-cmd "pg_isready -U litts -d litts_e2e"
+          --health-interval 2s
+          --health-timeout 3s
+          --health-retries 30
+
+    env:
+      DATABASE_URL: postgres://litts:litts_dev_password@localhost:54329/litts_e2e
+      BETTER_AUTH_URL: http://localhost:3000
+      BETTER_AUTH_SECRET: e2e-only-secret-e2e-only-secret-e2e-only-00
+      AUDIT_HMAC_KEY: e2e-only-audit-key-e2e-only-audit-key-0000
+      NEXT_TELEMETRY_DISABLED: "1"
+      E2E_SEED: "1"
+      CI: "true"
+
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - uses: pnpm/action-setup@ea17c68df8912ef543352723c149a84f56e3d413 # v6.1.0
+
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: 24
+          cache: pnpm
+
+      - run: pnpm install --frozen-lockfile
+
+      - name: Database
+        run: pnpm db:migrate
+
+      - name: Build and start
+        run: |
+          pnpm build
+          nohup pnpm start > server.log 2>&1 &
+          for _ in $(seq 1 60); do curl -sf -o /dev/null http://localhost:3000/sign-in && break; sleep 2; done
+          curl -sf -o /dev/null http://localhost:3000/sign-in
+
+      - name: Install Chromium
+        run: pnpm exec playwright install --with-deps chromium
+
+      - name: Browser tests
+        run: pnpm test:e2e
+
+      - name: Keep the report
+        if: failure()
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: e2e-report-${{ github.run_number }}
+          path: |
+            playwright-report/
+            test-results/
+            server.log
+          retention-days: 14

@@ -1,0 +1,97 @@
+# Checks every push to main and every pull request: lint, types, unit + integration tests
+# (against a throwaway Postgres 18), the production build, and that the CLI
+# scripts still load (the staff invite script is the break-glass path).
+# The check job uses no secrets: every value in it is a dummy.
+#
+# SHOWCASE COPY: the production repo's deploy job (migrate the live database, deploy to
+# Vercel) is removed here. This repository never deploys anywhere.
+# Third-party actions are pinned to a commit.
+name: CI
+
+on:
+  # Other branches are checked through their pull request; checking their pushes too ran everything twice.
+  # (The nightly audit anchors live on their own branch, with no app code.)
+  push:
+    branches: [main]
+  pull_request:
+
+concurrency:
+  group: ci-${{ github.ref }}
+  # A newer push cancels checks on other branches, but never a run on main that may be
+  # migrating or deploying — those queue instead.
+  cancel-in-progress: ${{ github.ref != 'refs/heads/main' }}
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    services:
+      postgres:
+        image: postgres:18-alpine
+        env:
+          POSTGRES_USER: litts
+          POSTGRES_PASSWORD: litts_dev_password
+          POSTGRES_DB: litts_loans_test
+        ports:
+          - 54329:5432
+        options: >-
+          --health-cmd "pg_isready -U litts -d litts_loans_test"
+          --health-interval 2s
+          --health-timeout 3s
+          --health-retries 30
+
+    env:
+      TEST_DATABASE_URL: postgres://litts:litts_dev_password@localhost:54329/litts_loans_test
+      # Dummy values so the build and scripts can load the validated environment.
+      DATABASE_URL: postgres://litts:litts_dev_password@localhost:54329/litts_loans_test
+      BETTER_AUTH_URL: http://localhost:3000
+      BETTER_AUTH_SECRET: ci-only-secret-ci-only-secret-ci-only-0000
+      AUDIT_HMAC_KEY: ci-only-audit-key-ci-only-audit-key-0000
+      NEXT_TELEMETRY_DISABLED: "1"
+
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - uses: pnpm/action-setup@ea17c68df8912ef543352723c149a84f56e3d413 # v6.1.0
+
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: 24
+          cache: pnpm
+
+      - run: pnpm install --frozen-lockfile
+
+      - name: Dependency audit
+        # Known high or critical advisories in anything the app runs with (review 2026-10-13).
+        # `xlsx` comes from the SheetJS CDN, outside the registry: check https://git.sheetjs.com/sheetjs/sheetjs/releases by hand.
+        run: pnpm audit --prod --audit-level high
+
+      - name: Lint
+        run: pnpm lint
+
+      - name: Typecheck
+        run: pnpm typecheck
+
+      - name: Tests (unit + integration)
+        run: pnpm test
+
+      - name: Build
+        run: pnpm build
+
+      - name: CLI scripts load
+        # With no arguments the invite script prints its usage and exits 1 — after
+        # loading the whole server module graph, which is what this checks.
+        run: |
+          out=$(pnpm --silent staff:invite 2>&1 || true)
+          echo "$out"
+          echo "$out" | grep -q "Usage: pnpm staff:invite"
+
+  # The browser tests run on every push to main.
+  e2e:
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    uses: ./.github/workflows/e2e.yml
+

@@ -1,0 +1,16 @@
+$9,874.00
+69811362
+2932
+TYPE loan
+State interest rate 1 %
+Broker interest rate 21 %
+Original total interest rate 22 %
+Current total interest rate 24% (+2.00%)
+Missed payment amounts 1
+First missed payment: 9 October 2026 - 12:03:01 AM (GMT+1)
+$57120) remaining
+3/10complete
+Next payment: in 6 days
+every 7 days
+3/10 complete
+OVERDUE: Missed payment 3/10 (1 missed)

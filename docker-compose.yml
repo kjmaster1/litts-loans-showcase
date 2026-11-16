@@ -1,0 +1,21 @@
+# Local development database only. Production uses Neon (see docs/decisions/0001).
+services:
+  db:
+    image: postgres:18-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: litts
+      POSTGRES_PASSWORD: litts_dev_password
+      POSTGRES_DB: litts_loans
+    ports:
+      - "54329:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql # PG 18+ image layout (data lives in a versioned subdirectory)
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U litts -d litts_loans"]
+      interval: 2s
+      timeout: 3s
+      retries: 20
+
+volumes:
+  pgdata:

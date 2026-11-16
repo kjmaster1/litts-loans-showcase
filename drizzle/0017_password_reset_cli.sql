@@ -1,0 +1,1 @@
+ALTER TABLE "staff_password_reset" ALTER COLUMN "created_by_staff_id" DROP NOT NULL;

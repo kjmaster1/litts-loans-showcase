@@ -1,0 +1,264 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+/*
+ * Litt's Loans design tokens (docs/design/DESIGN-SYSTEM.md).
+ * Palette sampled from the brand logo; every text/background pairing below was
+ * checked to meet WCAG 2.2 AA (≥ 4.5:1) — ratios noted inline.
+ *   brand green #59B280 · money teal #75ACA8 · cream #F2F0E2 · charcoal #505050 · ink #1B1D1B
+ * Raw brand green is only 2.6:1 on white, so light mode uses a deeper shade
+ * (#2E7752, 5.4:1) for text and actions; dark mode uses the brand green itself.
+ */
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-inter);
+  --font-mono: var(--font-jetbrains-mono);
+  --font-heading: var(--font-inter);
+  --font-display: var(--font-barlow-condensed);
+
+  --color-sidebar-ring: var(--sidebar-ring);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-muted-foreground: var(--sidebar-muted-foreground);
+  --color-sidebar: var(--sidebar);
+  --color-chart-5: var(--chart-5);
+  --color-chart-4: var(--chart-4);
+  --color-chart-3: var(--chart-3);
+  --color-chart-2: var(--chart-2);
+  --color-chart-1: var(--chart-1);
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+
+  /* Brand & semantic status colours (text-safe on card/background). */
+  --color-brand: var(--brand);
+  --color-brand-teal: var(--brand-teal);
+  --color-cream: var(--cream);
+  --color-success: var(--success);
+  --color-success-subtle: var(--success-subtle);
+  --color-warning: var(--warning);
+  --color-warning-subtle: var(--warning-subtle);
+  --color-danger: var(--danger);
+  --color-danger-subtle: var(--danger-subtle);
+  --color-info: var(--info);
+  --color-info-subtle: var(--info-subtle);
+  --color-neutral-subtle: var(--neutral-subtle);
+
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.4);
+  --radius-2xl: calc(var(--radius) * 1.8);
+  --radius-3xl: calc(var(--radius) * 2.2);
+  --radius-4xl: calc(var(--radius) * 2.6);
+}
+
+:root {
+  --radius: 0.5rem;
+
+  --background: oklch(0.984 0.004 106.5); /* #FAFAF7 warm paper */
+  --foreground: oklch(0.228 0.005 145.4); /* ink #1B1D1B — 16.2:1 */
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.228 0.005 145.4);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.228 0.005 145.4);
+  --primary: oklch(0.513 0.094 158.2); /* #2E7752 — white on it 5.4:1 */
+  --primary-foreground: oklch(1 0 0);
+  --secondary: oklch(0.95 0.008 106.6); /* #EFEFE9 */
+  --secondary-foreground: oklch(0.228 0.005 145.4);
+  --muted: oklch(0.95 0.008 106.6);
+  --muted-foreground: oklch(0.492 0.007 153.6); /* #5E625F — 5.9:1 on bg, 5.4:1 on muted */
+  --accent: oklch(0.95 0.02 158);
+  --accent-foreground: oklch(0.228 0.005 145.4);
+  --destructive: oklch(0.5 0.182 29.5); /* #B42318 — 6.6:1 */
+  --border: oklch(0.919 0.008 114.2); /* #E4E5DF */
+  --input: oklch(0.88 0.008 114.2);
+  --ring: oklch(0.513 0.094 158.2);
+
+  --brand: oklch(0.695 0.114 157); /* #59B280 — decorative only in light mode */
+  --brand-teal: oklch(0.705 0.058 190.2); /* #75ACA8 */
+  --cream: oklch(0.953 0.019 100.1); /* #F2F0E2 */
+
+  --success: oklch(0.513 0.094 158.2);
+  --success-subtle: oklch(0.95 0.035 158);
+  --warning: oklch(0.508 0.108 73.3); /* #8A5A00 — 5.9:1 */
+  --warning-subtle: oklch(0.96 0.045 85);
+  --danger: oklch(0.5 0.182 29.5);
+  --danger-subtle: oklch(0.955 0.03 25);
+  --info: oklch(0.483 0.064 191); /* #2B6A67 — 6.3:1 */
+  --info-subtle: oklch(0.95 0.025 190);
+  --neutral-subtle: oklch(0.95 0.008 106.6);
+
+  --chart-1: oklch(0.513 0.094 158.2);
+  --chart-2: oklch(0.705 0.058 190.2);
+  --chart-3: oklch(0.695 0.114 157);
+  --chart-4: oklch(0.508 0.108 73.3);
+  --chart-5: oklch(0.431 0 0);
+
+  /* Charcoal brand sidebar in both themes (redesign 2026-10, docs/design/REDESIGN-2026-10.md). */
+  --sidebar: oklch(0.255 0.006 157); /* #232624 */
+  --sidebar-foreground: oklch(0.93 0.01 106); /* #E9E9E2 — 13.3:1 */
+  --sidebar-muted-foreground: oklch(0.74 0.008 140); /* #ABB0AB — 7.1:1 */
+  --sidebar-primary: oklch(0.695 0.114 157); /* brand green — 5.9:1 on sidebar */
+  --sidebar-primary-foreground: oklch(0.175 0.004 164.6);
+  --sidebar-accent: oklch(0.32 0.012 157); /* hover/active row */
+  --sidebar-accent-foreground: oklch(0.97 0.006 106);
+  --sidebar-border: oklch(1 0 0 / 9%);
+  --sidebar-ring: oklch(0.695 0.114 157);
+}
+
+.dark {
+  --background: oklch(0.193 0.004 164.6); /* #131514 */
+  --foreground: oklch(0.944 0.007 115.7); /* #ECEDE8 — 15.6:1 */
+  --card: oklch(0.231 0.006 156.7); /* #1B1E1C */
+  --card-foreground: oklch(0.944 0.007 115.7);
+  --popover: oklch(0.265 0.006 156.8); /* #232624 */
+  --popover-foreground: oklch(0.944 0.007 115.7);
+  --primary: oklch(0.695 0.114 157); /* brand green — 6.5:1 on card */
+  --primary-foreground: oklch(0.175 0.004 164.6); /* ink on green — 7.3:1 */
+  --secondary: oklch(0.293 0.006 156.9);
+  --secondary-foreground: oklch(0.944 0.007 115.7);
+  --muted: oklch(0.265 0.006 156.8);
+  --muted-foreground: oklch(0.695 0.007 145.5); /* #9A9E9A — 6.2:1 on card */
+  --accent: oklch(0.3 0.03 158);
+  --accent-foreground: oklch(0.944 0.007 115.7);
+  --destructive: oklch(0.709 0.17 26.5); /* #F97066 — 6.0:1 */
+  --border: oklch(1 0 0 / 9%);
+  --input: oklch(1 0 0 / 14%);
+  --ring: oklch(0.695 0.114 157);
+
+  --brand: oklch(0.695 0.114 157);
+  --brand-teal: oklch(0.705 0.058 190.2);
+  --cream: oklch(0.953 0.019 100.1);
+
+  --success: oklch(0.695 0.114 157);
+  --success-subtle: oklch(0.3 0.045 158);
+  --warning: oklch(0.81 0.144 79.3); /* #F2B544 — 9.2:1 */
+  --warning-subtle: oklch(0.31 0.05 79);
+  --danger: oklch(0.709 0.17 26.5);
+  --danger-subtle: oklch(0.31 0.06 26);
+  --info: oklch(0.705 0.058 190.2); /* teal — 6.6:1 */
+  --info-subtle: oklch(0.3 0.03 190);
+  --neutral-subtle: oklch(0.293 0.006 156.9);
+
+  --chart-1: oklch(0.695 0.114 157);
+  --chart-2: oklch(0.705 0.058 190.2);
+  --chart-3: oklch(0.55 0.09 158);
+  --chart-4: oklch(0.81 0.144 79.3);
+  --chart-5: oklch(0.6 0 0);
+
+  --sidebar: oklch(0.165 0.004 164); /* #0F1110 — darker than the page */
+  --sidebar-foreground: oklch(0.93 0.01 106);
+  --sidebar-muted-foreground: oklch(0.72 0.008 140);
+  --sidebar-primary: oklch(0.695 0.114 157);
+  --sidebar-primary-foreground: oklch(0.175 0.004 164.6);
+  --sidebar-accent: oklch(0.25 0.01 158);
+  --sidebar-accent-foreground: oklch(0.97 0.006 106);
+  --sidebar-border: oklch(1 0 0 / 7%);
+  --sidebar-ring: oklch(0.695 0.114 157);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "cv11", "ss01"; /* Inter: single-storey a off, open digits */
+  }
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+  html {
+    @apply font-sans;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+@layer utilities {
+  /* Type scale (redesign 2026-10): page title, section title, caption. */
+  .text-title {
+    @apply text-[1.375rem] leading-7 font-semibold tracking-tight;
+  }
+  .text-section {
+    @apply text-[0.9375rem] leading-6 font-semibold;
+  }
+  .text-caption {
+    @apply text-xs leading-4 text-muted-foreground;
+  }
+  /* All monetary and count values: fixed-width digits so columns align. */
+  .num {
+    font-variant-numeric: tabular-nums lining-nums;
+    font-feature-settings: "tnum", "lnum";
+  }
+  /* Identifiers: State IDs, wallet IDs, references. */
+  .ident {
+    @apply font-mono text-[0.8125rem] tracking-tight;
+    font-variant-numeric: tabular-nums slashed-zero;
+  }
+}
+
+@layer components {
+  /*
+   * A row of tabs (redesign 2026-10). The baseline is drawn inside the bar (inset
+   * shadow) so the active tab's underline covers it without overhanging — an
+   * overhang plus horizontal scrolling gave the bar a vertical scrollbar. Still
+   * swipes sideways on narrow screens, without showing a scrollbar.
+   */
+  .tab-bar {
+    @apply flex gap-1 overflow-x-auto overflow-y-hidden;
+    box-shadow: inset 0 -1px 0 var(--color-border);
+    scrollbar-width: none;
+  }
+  .tab-bar::-webkit-scrollbar {
+    display: none;
+  }
+  /*
+   * First column pinned while a wide table scrolls sideways (P&L months): row labels
+   * stay readable. Opaque backgrounds mirror the translucent header, footer and hover.
+   */
+  .sticky-col {
+    position: sticky;
+    left: 0;
+    z-index: 1;
+    background-color: var(--color-card);
+    box-shadow: inset -1px 0 0 var(--color-border);
+  }
+  thead .sticky-col {
+    background-color: color-mix(in oklab, var(--color-muted) 40%, var(--color-card));
+  }
+  tfoot .sticky-col,
+  tr:hover > .sticky-col {
+    background-color: color-mix(in oklab, var(--color-muted) 50%, var(--color-card));
+  }
+}

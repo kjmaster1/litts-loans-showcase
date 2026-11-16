@@ -1,0 +1,8 @@
+ignoredBuiltDependencies:
+  - sharp
+  - unrs-resolver
+onlyBuiltDependencies:
+  - esbuild
+overrides:
+  # @vercel/cli-config pins zod 4.1.11 (high advisory, fixed in 4.6.6); 2026-10-28.
+  "@vercel/cli-config>zod": ^4.6.7
